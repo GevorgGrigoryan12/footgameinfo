@@ -1,0 +1,137 @@
+:root {
+    --black: black;
+    --purple: purple;
+    --blue: blue;
+    --red: red;
+    --green: greenyellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 1rem;
+    color:var(--black)
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1750px;
+    padding: 0 1rem;
+    margin: 0 auto;
+    gap: 40px;
+}
+/* =========================== header ================== */
+
+header {
+    padding: 1.2rem 0;
+    position: relative;
+
+}
+
+header .header_inner .user  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header .header_inner .user .user_content {
+    padding-left: 9px;
+}
+
+header .header_inner .user .user_content .user_name {
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 3px;
+
+}
+header .header_inner .user nav a {
+    margin: 0 15px;
+}
+
+
+/* =======================================  background settings ======================================= */
+
+.efootballinfo {
+    position: relative;
+}
+
+.background_image  {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.works {
+    margin-bottom: 7rem;
+}
+
+.works .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-top: 50px;
+}
+
+.works .box-container .box {
+    box-shadow: 0 0 4px var(--black);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.works .box-container .box:hover {
+    box-shadow: 0 0 25px var(--black);
+}
+
+.works .box-container .box .content {
+    padding: 1rem .8rem;
+}
+
+.works .box-container .box .content .work_cat {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: .4rem;
+}
+
+
+.works .box-container .box .content .worktitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.works .box-container img {
+    width: 100%;
+    height: 22rem;
+}
