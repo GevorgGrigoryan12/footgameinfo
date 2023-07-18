@@ -4,6 +4,7 @@
     --blue: blue;
     --red: red;
     --green: greenyellow;
+    --white: white;
 }
 
 * {
@@ -112,6 +113,7 @@ header .header_inner .user nav a {
 
 .works .box-container .box .content {
     padding: 1rem .8rem;
+    color: var(--white);
 }
 
 .works .box-container .box .content .work_cat {
